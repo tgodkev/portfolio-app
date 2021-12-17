@@ -19,10 +19,10 @@ function NewCard(props){
     return(
     <Grid container spacing={4}>
             
-              <Grid item key={props.id} m={2} container direction="column" alignItems="center" style={{backgroundColor: "#292C6D" , marginBottom: "0px"}}>
+              <Grid item key={props.id} m={0} container direction="column" alignItems="center" style={{backgroundColor: "#292C6D" , marginBottom: "0px"}}>
                 <Card
-                  sx={{ maxWidth: 300, display: 'flex', flexDirection: 'column', alignItems:"center" }}
-                  style={{height: "auto", width: "600px", marginBottom:"10px", marginTop:"10px"}}
+                  sx={{ maxWidth: 300, display: "flex", flexDirection: 'column', alignItems:"center" }}
+                  style={{height: "auto", width: "500px", marginBottom: "20px", marginTop:"20px"}}
                 >
                   <CardMedia
                     component="img"
