@@ -1,4 +1,3 @@
-import { PinDropSharp } from "@mui/icons-material";
 import React from "react";
 import Album from "./Album";
 import Footer from "./Footer";
