@@ -21,7 +21,7 @@ function NewCard(props){
             
               <Grid item key={props.id} m={2} container direction="column" alignItems="center" style={{backgroundColor: "#292C6D" , marginBottom: "0px"}}>
                 <Card
-                  sx={{ maxWidth: 600, display: 'flex', flexDirection: 'column', alignItems:"center" }}
+                  sx={{ maxWidth: 400, display: 'flex', flexDirection: 'column', alignItems:"center" }}
                   style={{height: "auto", width: "600px", marginBottom:"10px", marginTop:"10px"}}
                 >
                   <CardMedia
