@@ -17,7 +17,7 @@ function NewCard(props){
 
 
     return(
-    <Grid container spacing={4}>
+    <Grid container spacing={4} className="about">
             
               <Grid item key={props.id} m={0} container direction="column" alignItems="center" style={{backgroundColor: "#292C6D" , marginBottom: "0px"}}>
                 <Card

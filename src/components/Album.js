@@ -19,7 +19,7 @@ export default function Album() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <main>
+      <main className='about'>
         {/* Hero unit */}
         <Box
           sx={{

@@ -5,13 +5,11 @@ body{
 
 .about{
     text-align: center;
-    margin-top: 20%;
     animation-name: slidein;
     animation-duration: 2s;
     font-size: 3rem;
     color: #DBEDF3;
     font-family: "Arvo", cursive;
-    text-shadow: 3px 0 #DA0463;
 }
 
 @keyframes slidein {
