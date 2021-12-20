@@ -7,20 +7,14 @@ body{
     text-align: center;
     animation-name: slidein;
     animation-duration: 2s;
-    font-size: 3rem;
     color: #DBEDF3;
-    font-family: "Arvo", cursive;
 }
 
 @keyframes slidein {
     from {margin-left: 100%;
     width: 80%;
     }
-    75%{
-        font-size: 60%;
-        margin-left: 25%;
-        width: 100%;
-    }
+   
 }
 
 
