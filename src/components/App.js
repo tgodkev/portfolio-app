@@ -37,10 +37,3 @@ function App(){
 
 export default App;
 
-
-{/*  <Link to="about">
-            <Button variant='contained'  style={{backgroundColor:"blue",  marginLeft: "48%"}}>
-              <p>Enter</p>
-            </Button>
-        </Link>
-          <Outlet /> */}

@@ -28,7 +28,7 @@ export default function Album() {
             pb: 6,
           }}
         >
-          <Container maxWidth="sm" style={{marginTop: "20%"}}>
+          <Container maxWidth="sm" style={{marginTop: "15%",  marginBottom: "5%"}}>
             <Typography              component="h1"
               variant="h2"
               align="center"
