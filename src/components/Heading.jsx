@@ -13,7 +13,7 @@ function Heading(){
 <AppBar className='heading'>
         <Toolbar>
           <CatchingPokemonIcon sx={{ mr: 2 }} />
-          <Typography variant="h4" color="#FAEDF0" noWrap>
+          <Typography variant="h4" color="#FAEDF0" >
             Kevs Portfolio Page.
           </Typography>
         

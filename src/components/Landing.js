@@ -24,7 +24,7 @@ function Landing(){
         <Heading />
         <About />
         <Link to="app">
-            <Button variant='contained' onClick={handleClick} style={{backgroundColor:"blue",  marginLeft: "850px", transform: enter ? "scale(0)" : "scale(1)" }}>
+            <Button variant='contained' onClick={handleClick} style={{backgroundColor:"blue",  marginLeft: "48%", transform: enter ? "scale(0)" : "scale(1)" }}>
               <p>Enter</p>
             </Button>
         </Link>
