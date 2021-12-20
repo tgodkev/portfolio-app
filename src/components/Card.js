@@ -7,7 +7,8 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Link from '@mui/material/Link';
-
+import PlayArrowIcon from '@mui/icons-material/PlayArrow';
+import Button from '@mui/material/Button';
 
 
 
@@ -43,12 +44,17 @@ function NewCard(props){
                   </CardContent>
                   <CardActions>
                   <Link color="inherit" href={props.link}>
-                    Live preview
+                    <Button variant = "contained" size="small">
+                      live Preview
+                      <PlayArrowIcon />
+                    </Button>
                     </Link>
                     <Link color="inherit" href={props.source}>
-                    Source Code
+                    <Button variant ="outlined" size="small" >
+                      Source Code.
+                      <GitHubIcon />
+                    </Button>
                     </Link>
-                    <GitHubIcon />
                   </CardActions>
                 </Card>
               </Grid>
