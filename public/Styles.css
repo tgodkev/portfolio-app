@@ -3,11 +3,6 @@ body{
 }
 
 
-.landing{
-    
-}
-
-
 .about{
     text-align: center;
     margin-top: 20%;
@@ -31,8 +26,8 @@ body{
 }
 
 
+
 .heading{
     background-color:  "#161853";
-    animation-name: slidein;
-    animation-duration: 2s;
+
 }

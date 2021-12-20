@@ -28,18 +28,17 @@ export default function Album() {
             pb: 6,
           }}
         >
-          <Container maxWidth="sm">
-            <Typography
-              component="h1"
+          <Container maxWidth="sm" style={{marginTop: "20%"}}>
+            <Typography              component="h1"
               variant="h2"
               align="center"
               color="#FAEDF0"
               gutterBottom
             >
-              Im Kevin, A Web Developer.
+              I'm Kevin, A Web Developer.
             </Typography>
             <Typography variant="h5" align="center" color="#FAEDF0" paragraph>
-              Im a  28 year old web Developer from ohio, I utilize the MERN stack to make my web applications.
+              Im a  28 year old web Developer from Ohio, I utilize the MERN stack to make my web applications.
               Im currently seeking a entry level front end web developer role, check out some of my web apps below and feel free to get in touch.
             </Typography>
             <Stack

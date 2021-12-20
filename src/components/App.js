@@ -3,6 +3,8 @@ import Album from "./Album";
 import Footer from "./Footer";
 import NewCard from "./Card";
 import projects from "./Projects";
+import Heading from "./Heading";
+import ParticleContainer from "./ParticleContainer";
 
 function createCard(projects){
   return(
@@ -24,11 +26,21 @@ function createCard(projects){
 function App(){
   return(
     <div>
+    <Heading />
       <Album />
       {projects.map(createCard)}
     <Footer />
+    <ParticleContainer />
     </div>
   )
 }
 
 export default App;
+
+
+{/*  <Link to="about">
+            <Button variant='contained'  style={{backgroundColor:"blue",  marginLeft: "48%"}}>
+              <p>Enter</p>
+            </Button>
+        </Link>
+          <Outlet /> */}

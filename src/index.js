@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Landing from './components/Landing';
 import App from "./components/App";
 import reportWebVitals from './reportWebVitals';
 
@@ -9,8 +8,7 @@ ReactDOM.render(
   
   <BrowserRouter>
   <Routes>
- <Route path="/" element={<Landing />}>
-   <Route path="App" element={<App />} />
+ <Route path="/" element={<App />}>
    <Route
      path="*"
      element={
