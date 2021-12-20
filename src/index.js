@@ -1,12 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Landing from './components/Landing';
+import App from "./components/App";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  
+  <BrowserRouter>
+  <Routes>
+ <Route path="/" element={<Landing />}>
+   <Route path="App" element={<App />} />
+   <Route
+     path="*"
+     element={
+       <main style={{ padding: "1rem" }}>
+         <p>There's nothing here!</p>
+       </main>
+     }
+   />
+ </Route>
+</Routes>
+ </BrowserRouter>
+ ,
   document.getElementById('root')
 );
 

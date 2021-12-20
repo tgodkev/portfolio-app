@@ -22,14 +22,6 @@ export default function Album() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <AppBar position="relative" style={{backgroundColor: "#161853"}}>
-        <Toolbar>
-          <CatchingPokemonIcon sx={{ mr: 2 }} />
-          <Typography variant="h6" color="#FAEDF0" noWrap>
-            Kevs Portfolio Page.
-          </Typography>
-        </Toolbar>
-      </AppBar>
       <main>
         {/* Hero unit */}
         <Box

@@ -1,3 +1,43 @@
 body{
     background-color: #292C6D;
 }
+
+
+.landing{
+    
+}
+
+
+.about{
+    text-align: center;
+    margin-top: 20%;
+    animation-name: slidein;
+    animation-duration: 2s;
+    font-size: 5rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+}
+
+@keyframes slidein {
+    from {margin-left: 100%;
+    width: 300%;
+    }
+    75%{
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+    }
+}
+
+
+.heading{
+    background-color:  "#161853";
+    animation-name: slidein;
+    animation-duration: 2s;
+}
+
+.go{
+    margin-left: 400px;
+    color: red;
+}
