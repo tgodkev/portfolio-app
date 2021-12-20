@@ -45,7 +45,7 @@ function NewCard(props){
                   <CardActions>
                   <Link color="inherit" href={props.link}>
                     <Button variant = "contained" size="small">
-                      live Preview
+                      live Demo
                       <PlayArrowIcon />
                     </Button>
                     </Link>
