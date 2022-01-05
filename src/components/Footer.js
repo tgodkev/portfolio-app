@@ -9,7 +9,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Copyright() {
     return (
-      <Typography variant="body2" color="text.secondary" align="center">
+      <Typography variant="body2" color="text.secondary" className="copyright">
         {'Copyright © '}
         <Link color="inherit" href="https://github.com/tgodkev">
           My GitHub <GitHubIcon />
@@ -23,10 +23,7 @@ function Copyright() {
 function Footer(){
 return(
 
-<Box sx={{ bgcolor: '#EC255A', p: 6 }} component="footer">
-        <Typography variant="h6" align="center" gutterBottom>
-          Code By Kev
-        </Typography>
+<Box sx={{ bgcolor: '#EC255A', p: 0 }} component="footer">
         <Typography
           variant="subtitle1"
           align="center"

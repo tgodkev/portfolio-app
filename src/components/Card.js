@@ -18,14 +18,15 @@ function NewCard(props){
 
 
     return(
-    <Grid container spacing={4} className="about">
+    <Grid className='wrapper'>
             
-              <Grid item key={props.id} m={0} container direction="column" alignItems="center" style={{backgroundColor: "#292C6D" , marginBottom: "0px"}}>
+              <Grid item key={props.id}>
                 <Card
-                  sx={{ maxWidth: 300, display: "flex", flexDirection: 'column', alignItems:"center" }}
-                  style={{height: "auto", width: "500px", marginBottom: "40px", marginTop:"20px"}}
+                  
+                  className="card"
                 >
                   <CardMedia
+                  
                     component="img"
                     sx={{
                       // 16:9

@@ -32,6 +32,14 @@ const projects = [
         link:"https://tgodkev.github.io/etch/",
         source:"https://github.com/tgodkev/etch"
     },
+    {
+        id: "5",
+        name: "Small Website",
+        description: "Website built with react js and css.",
+        img: "https://i.ibb.co/gy5wF4W/Screenshot-2022-01-04-at-23-03-57-React-App.png",
+        link:"https://trusting-hugle-759944.netlify.app/",
+        source:"https://github.com/tgodkev/cicis-app"
+    },
 
 ]
 

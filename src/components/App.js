@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import NewCard from "./Card";
 import projects from "./Projects";
 import Heading from "./Heading";
-import ParticleContainer from "./ParticleContainer";
+
 
 function createCard(projects){
   return(
@@ -29,11 +29,9 @@ function App(){
     <Heading />
       <Album />
       {projects.map(createCard)}
-    <Footer />
-    <ParticleContainer />
+      <Footer />
     </div>
   )
 }
 
 export default App;
-

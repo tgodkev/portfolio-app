@@ -5,21 +5,40 @@ body{
 
 .about{
     text-align: center;
-    animation-name: slidein;
-    animation-duration: 2s;
     color: #DBEDF3;
-}
-
-@keyframes slidein {
-    from {margin-left: 100%;
-    width: 80%;
-    }
-   
 }
 
 
 
 .heading{
+    position: relative;
     background-color:  "#161853";
 
+}
+
+.card{
+    grid-column: 3 / 3;
+    grid-row: 3;
+  
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-top: 2%;
+    margin-left: 40%;
+  }
+
+
+.footer{
+    position: relative;
+    height: 2%;
+    width: 100%;
+    text-align: center;
+}
+
+.copyright{
+    text-align: center;
 }
